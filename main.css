@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    padding: 1em;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main header img{
+    height: 37px;
+    width: 35px;
+}
+
+.hide{
+    display: none;
+}
+
+nav ul{
+    display: none;
+}
+
+.nav-hamburguer_button--closed{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 27px;
+    width: 34px;
+}
+
+.humburguer-button-element{
+    background: #333;
+    height: 3px;
+    width: 24px;
+}
