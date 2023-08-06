@@ -73,6 +73,7 @@ nav ul{
 }
 
 main article{
-    background-color: red;
+    display: flex;
+    flex-direction: column;
     height: 80%;
 }
