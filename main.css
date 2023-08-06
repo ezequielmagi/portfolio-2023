@@ -4,7 +4,12 @@
     box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap');
+
 main{
+    background: #333;
+    background: #fafafa;
+    font-family: 'Montserrat', sans-serif;
     height: 100vh;
     width: 100vw;
 }
@@ -76,4 +81,78 @@ main article{
     display: flex;
     flex-direction: column;
     height: 80%;
+}
+
+.profile-container{
+    margin: 0 auto;
+}
+
+.me{
+    width: 320px;
+}
+
+.salute-container{
+    height: 100%;
+    margin: 0 auto;
+}
+
+.salute-container p{
+    font-size: 1.5rem;
+    color: #647eff;
+}
+
+.salute-container h1{
+    font-size: 3rem;
+    font-weight: 700;
+    background: -webkit-linear-gradient(135deg, #647eff, #7721ee, #1db5f2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 1rem;
+}
+
+.salute-container h2{
+    font-size: 1.7rem;
+    background: -webkit-linear-gradient(135deg, #b176f9, #6837ef, #3a056f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 1.3;
+}
+
+.aboutMe--container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100vh;
+    width: 80vw;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    padding: 2rem 0;
+    line-height: 1.5;
+}
+
+.aboutMe--description h2{
+    font-size: 1.6rem;
+    font-weight: 700;
+    background: -webkit-linear-gradient(135deg, #647eff, #5b15bc, #f2591d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.aboutMe--description h3{
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    background: -webkit-linear-gradient(135deg, #f838ce, #d20c62, #1db5f2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.aboutMe--description p{
+    color: rgb(142, 137, 137);
+}
+
+.aboutMe--description span{
+    font-weight: bold;
+    background: -webkit-linear-gradient(135deg, #647eff, #7721ee, #1db5f2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
