@@ -156,3 +156,52 @@ main article{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.projects--container{
+    height: 100vh;
+    width: 100%;
+    padding: 1rem;
+    display: grid;
+    background-color: #faf7f8;
+}
+
+.projects--container h2{
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.projects--container--cards{
+    height: 450px;
+    display: flex;
+    align-items: center;
+    width: auto;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+}
+
+.project--card{
+    border-radius: 1rem;
+    background-color: #fff;
+    height: 370px;
+    min-width: 220px;
+    margin: 0 1rem;
+    box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+}
+
+
+
+.project--card:first-of-type figure{
+    height: 200px;
+    background-image: url(./assets/previewCardComponent.png);
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.project--card:nth-child(2) figure{
+    height: 200px;
+    background-image: url(./assets/valorationCard.png);
+    background-position: center;
+    background-size: cover;
+}
