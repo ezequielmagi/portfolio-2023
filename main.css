@@ -266,6 +266,14 @@ main article{
     background-size: cover;
 }
 
+.project--card__figure--seventh{
+    height: 200px;
+    background-image: url(./assets/subscription7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 .imgHtml{
 background-image: url(https://i.postimg.cc/8c1mywfj/html5.png);
 width: 35px;
@@ -318,4 +326,51 @@ a{
 .deploy{
     margin-left: 1rem;
     background: rgb(76, 76, 248);
+}
+
+.footer{
+    background: #333;
+    display: grid;
+    grid-template-rows: 1fr 2fr 2fr;
+    height: 90vh;
+    align-items: center;
+}
+
+.footer--text p{
+    color: #fafafa;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.footer--social{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    padding: 0 3rem;
+}
+
+.footer--social picture{
+    text-align: center;
+}
+
+.footer--pic{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.footer--pic img{
+    max-width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+.footer--pic .logo{
+    border-radius: 0;
+    text-align: left;
 }
