@@ -77,6 +77,10 @@ nav ul{
     display: none;
 }
 
+main{
+    height: 100vh;
+}
+
 main article{
     display: flex;
     flex-direction: column;
@@ -88,7 +92,7 @@ main article{
 }
 
 .me{
-    width: 320px;
+    max-width: 600px;
 }
 
 .salute-container{
@@ -373,4 +377,16 @@ a{
 .footer--pic .logo{
     border-radius: 0;
     text-align: left;
+}
+
+@media (min-width: 413px){
+    .salute-container p{
+        font-size: 3rem;
+    }
+    .salute-container h1{
+        font-size: 6rem;
+    }
+    .salute-container h2{
+        font-size: 4rem;
+    }
 }
