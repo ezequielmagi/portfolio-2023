@@ -380,13 +380,36 @@ a{
 }
 
 @media (min-width: 413px){
+    main{
+        height: 80vh;
+    }
     .salute-container p{
-        font-size: 3rem;
+        font-size: 1.7rem;
     }
     .salute-container h1{
-        font-size: 6rem;
+        font-size: 2.7rem;
     }
     .salute-container h2{
-        font-size: 4rem;
+        font-size: 2rem;
     }
+
+    .aboutMe--container{
+        height: 80vh;
+    }
+
+    .projects--container{
+        height: 80vh;
+    }
+
+    .myProjects--title{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+      
+    }
+
+    .footer{
+        height: 70vh;
+    }
+
 }
