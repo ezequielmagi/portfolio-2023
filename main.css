@@ -170,10 +170,17 @@ main article{
     background-color: #efebed;
 }
 
+.myProjects--title{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  
+}
+
 .projects--container h2{
     font-size: 2.2rem;
     font-family: 'Montserrat', sans-serif;
-    padding-top: 1rem;
+   
 
 }
 
@@ -238,6 +245,8 @@ main article{
     background-image: url(./assets/valorationCard.png);
     background-position: center;
     background-size: cover;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 }
 
 .project--card__figure--three{
@@ -245,6 +254,8 @@ main article{
     background-image: url(./assets/batata.png);
     background-position: center;
     background-size: cover;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 }
 
 .project--card__figure--fourth{
@@ -252,6 +263,8 @@ main article{
     background-image: url(./assets/adviceGenerator.png);
     background-position: center;
     background-size: cover;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 }
 
 .project--card__figure--fifth{
@@ -260,6 +273,8 @@ main article{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 }
 
 .project--card__figure--sixth{
@@ -268,6 +283,8 @@ main article{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 }
 
 .project--card__figure--seventh{
@@ -276,43 +293,47 @@ main article{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 }
 
 .imgHtml{
-background-image: url(https://i.postimg.cc/8c1mywfj/html5.png);
-width: 35px;
-height: 35px;
+background-image: url(./assets/html5.webp);
+width: 25px;
+height: 25px;
 background-size: contain;
 background-repeat: no-repeat;
 background-position: center;
 
 }
 .imgCss{
-background-image: url(https://i.postimg.cc/YCjbKXnF/css.png);
-width: 35px;
-height: 35px;
+background-image: url(./assets/css\ \(1\).png);
+width: 25px;
+height: 25px;
 background-size: contain;
 background-repeat: no-repeat;
 background-position: center;
+margin-left: 5px;
 }
 
 .imgJs{
-background-image: url(https://i.postimg.cc/DfggWVRs/js.png);
-width: 35px;
-height: 35px;
+background-image: url(./assets/js.png);
+width: 25px;
+height: 25px;
 background-size: contain;
 background-repeat: no-repeat;
 background-position: center;
+margin-left: 5px;
 }
 
 .imgTailwind{
-background-image: url(./assets/newT.png);
-width: 35px;
-height: 35px;
+background-image: url(./assets/tailwind\ \(1\).png);
+width: 25px;
+height: 25px;
 background-size: contain;
 background-repeat: no-repeat;
 background-position: center;
-margin-left: 8px;
+margin-left: 5px;
 }
 
 a{
